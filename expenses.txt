@@ -1,0 +1,4 @@
+Food: 400
+Transport: 300
+Other: 500
+New Expense: 200

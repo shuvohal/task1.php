@@ -22,7 +22,11 @@ echo "Total Expense: $total <br>";
 echo "Average Expense: $average <br>";
 
 // 5. Budget check
-echo ($total > 1000) ? "Budget Exceeded <br>" : "Within Budget <br>";
+ if($total>1000){
+    echo "budget is over <br>";
+ }else{
+    echo "everything is ok <br>";
+ }
 
 // 6. Switch case for expense range message
 switch(true) {
