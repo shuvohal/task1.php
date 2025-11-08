@@ -7,8 +7,9 @@ $expenses = [
 ];
 
 // 2. Array functions
-array_push($expenses, 200); // add expense
-$last = array_pop($expenses); // remove last value
+
+array_push($expenses, 200); 
+$last = array_pop($expenses); 
 $extra = ["entertainment" => 250];
 $merged = array_merge($expenses, $extra);
 
